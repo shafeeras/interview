@@ -1,11 +1,11 @@
 export function onRequest(config) {
-  const token = localStorage.getItem('token')
-  if (token) {
-    config.headers = {
-      ...config.headers,
-      Authorization: `JWT ${token}`
-    }
-  }
+  // const token = localStorage.getItem('token')
+  // if (token) {
+  //   config.headers = {
+  //     ...config.headers,
+  //     Authorization: `JWT ${token}`
+  //   }
+  // }
   return config
 }
 
