@@ -2,7 +2,7 @@ import axios from "axios";
 import { onResponse, onResponseError } from "./responseInterceptor";
 import { onRequest, onRequestError } from "./requestInterceptor";
 
-export const BASE_URL = "http://localhost:5000";
+export const BASE_URL = "https://romantic-comedy.herokuapp.com";
 
 export const API = axios.create({
   baseURL: BASE_URL
