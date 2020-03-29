@@ -28,4 +28,5 @@ export const Arrow = styled.span`
 export const SearchIcon = styled.span`
   background-image: url("../../assets/images/search.png");
   right: 10px;
+  pointer-events: none;
 `;

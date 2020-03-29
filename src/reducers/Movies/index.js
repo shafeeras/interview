@@ -2,11 +2,11 @@ import { MOVIES } from "../../actions/Movies";
 
 const initialState = {
   movies: {
-    title: "Romantic Comedy",
-    total_content_items: "54",
-    page_num_requested: "2",
-    page_size_requested: "20",
-    page_size_returned: "20",
+    title: "",
+    total_content_items: "",
+    page_num_requested: "",
+    page_size_requested: "",
+    page_size_returned: "",
     content_items: {
       content: []
     },

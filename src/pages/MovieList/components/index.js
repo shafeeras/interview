@@ -23,7 +23,6 @@ const LazyList = props => {
 
 LazyList.propTypes = {
   movieList: PropTypes.array,
-  offSet: PropTypes.number.isRequired
 };
 
 LazyList.defaultProps = {

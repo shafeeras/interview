@@ -41,7 +41,6 @@ const MovieList = props => {
 
   const loadMore = () => {
     fetchMovies(offSet + 1);
-    console.log(offSet + 1, "offSet");
   };
 
   useEffect(() => {
@@ -49,7 +48,6 @@ const MovieList = props => {
   }, [content.length]);
 
   useEffect(() => {
-    console.log(offSet, "offSet");
     fetchMovies(offSet);
   }, []);
 

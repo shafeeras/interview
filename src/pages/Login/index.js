@@ -15,7 +15,7 @@ const Login = props => {
 
   return (
     <Layout>
-      <Button onClick={handleLogin}>Login</Button>
+      <Button onClick={handleLogin}>Continue</Button>
     </Layout>
   );
 };

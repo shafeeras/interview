@@ -17,7 +17,7 @@ const App = props => {
       <Switch>
         <Route
           exact
-          path="/interview"
+          path="/"
           render={propsChld => (
             <ErrorHandler>
               <CMP.Login {...propsChld} />

@@ -10,15 +10,15 @@ import { theme } from "./styles/cssProps";
 
 const store = generateStore();
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={store}>
       <Router>
         <ThemeProvider theme={theme}>
           <App />
         </ThemeProvider>
       </Router>
-    </Provider>
-  </React.StrictMode>,
+    </Provider>,
+  // </React.StrictMode>,
   document.getElementById("root")
 );
 serviceWorker.unregister();
