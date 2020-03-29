@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Titillium-Bold';
+    font-display: swap;
+    src: url('./fonts/Titillium-Bold.otf')
+      format('opentype');
+  }
+  @font-face {
+    font-family: 'Titillium-Semibold';
+    font-display: swap;
+    src: url('./fonts/Titillium-Semibold.otf')
+      format('opentype');
+  } 
+  @font-face {
+    font-family: 'Titillium-Regular';
+    font-display: swap;
+    src: url('./fonts/Titillium-Regular.otf')
+      format('opentype');
+  }  
+  @font-face {
+    font-family: 'Titillium-Light';
+    font-display: swap;
+    src: url('./fonts/Titillium-Light.otf')
+      format('opentype');
+  }
+  @font-face {
+    font-family: 'Titillium-Thin';
+    font-display: swap;
+    src: url('./fonts/Titillium-Thin.otf')
+      format('opentype');
+  }
