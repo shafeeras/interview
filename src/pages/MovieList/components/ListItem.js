@@ -10,7 +10,7 @@ const ListItem = props => {
   return (
     <Li ref={setNode}>
       <Preview
-        url={visible ? `https://romantic-comedy.herokuapp.com/assets/images/${props.item.poster_image}` : ""}
+        url={visible ? `https://romanticservice.herokuapp.com/static/images/${props.item.poster_image}` : ""}
       ></Preview>
       <Label>{props.item.name}</Label>
     </Li>

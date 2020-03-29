@@ -22,11 +22,11 @@ export const Wrapper = styled.div`
   }
 `;
 export const Arrow = styled.span`
-  background-image: url("https://romantic-comedy.herokuapp.com/assets/images/Back.png");
+  background-image: url("https://romanticservice.herokuapp.com/static/images/Back.png");
   left: 10px;
 `;
 export const SearchIcon = styled.span`
-  background-image: url("https://romantic-comedy.herokuapp.com/assets/images/search.png");
+  background-image: url("https://romanticservice.herokuapp.com/static/images/search.png");
   right: 10px;
   pointer-events: none;
 `;
